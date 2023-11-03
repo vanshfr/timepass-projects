@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body::before {
+  content: "";
+  /* background: url("https://gifdb.com/images/high/outer-space-planets-background-d6dsvq0armnh3ajg.webp"); */
+  background: url("assets/ezgif.com-video-to-gif.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  position: absolute;
+  height: 100vh;
+  inset: 0;
+  opacity: 0.4; 
+  z-index: -1;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  font-family: 'Numans', sans-serif;
+}
+
+  .daily-ui-challenege {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    z-index: 0;
+    width: 100%;
+}
+
+
+  .daily-ui-challenege .overlap-wrapper {
+    width: 1366px;
+    height: 768px;
+  }
+  
+  .daily-ui-challenege .overlap {
+    position: relative;
+    width: 1331px;
+    height: 698px;
+    top: 35px;
+    left: 35px;
+  }
+  
+  .daily-ui-challenege .rectangle {
+    filter: drop-shadow(2px 2px 70px black);
+    position: absolute;
+    width: 984px;
+    height: 698px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .daily-ui-challenege .img {
+    filter: brightness(48%) drop-shadow(2px 2px 10px black);
+    position: absolute;
+    width: 484px;
+    height: 579px;
+    top: 57px;
+    left: 847px;
+  }
+  
+  .daily-ui-challenege .group {
+    position: absolute;
+    width: 366px;
+    height: 24px;
+    top: 434px;
+    left: 907px;
+  }
+  
+  .daily-ui-challenege .overlap-group {
+    position: relative;
+    width: 364px;
+    height: 24px;
+  }
+  
+  .daily-ui-challenege .login-with-others {
+    position: absolute;
+    top: 0;
+    left: 113px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .daily-ui-challenege .text-wrapper {
+    font-weight: 700;
+  }
+  
+  .daily-ui-challenege .span {
+    font-family: "Poppins-Regular", Helvetica;
+  }
+  
+  .daily-ui-challenege .subtract {
+    position: absolute;
+    width: 364px;
+    height: 1px;
+    top: 11px;
+    left: 0;
+  }
+  
+  .daily-ui-challenege .div {
+    position: absolute;
+    width: 340px;
+    height: 78px;
+    top: 94px;
+    left: 921px;
+  }
+  
+  .daily-ui-challenege .text-wrapper-2 {
+    top: 6px;
+    left: 100px;
+    font-family: "Rajdhani-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 50px;
+    white-space: nowrap;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .p {
+    margin-top: 0;
+    text-align: center;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ff5959;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .daily-ui-challenege .overlap-group-wrapper {
+    position: absolute;
+    width: 366px;
+    height: 52px;
+    top: 277px;
+    left: 907px;
+  }
+  
+  .daily-ui-challenege .overlap-2 {
+    position: relative;
+    width: 58px;
+    height: 52px;
+  }
+  
+  .daily-ui-challenege .text-wrapper-3 {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff80;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .daily-ui-challenege .frame {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 13px;
+    left: 17px;
+  }
+  
+  .daily-ui-challenege .div-wrapper {
+    position: absolute;
+    width: 366px;
+    height: 52px;
+    top: 201px;
+    left: 907px;
+  }
+  
+  .daily-ui-challenege .group-2 {
+    position: absolute;
+    width: 234px;
+    height: 52px;
+    top: 348px;
+    left: 982px;
+  }
+  
+  .daily-ui-challenege .login-now {
+    margin-top: 14px;
+    height: 36px;
+    width: 90px;
+    font-size: 15px;
+    background: #66d366;
+    border: none;
+    border-radius: 12px;
+    top: 15px;
+    left: 68px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 12px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+  }
+
+  .login-now:hover{
+    background: #2dbacd;
+    color: #2a2a2a;
+  }
+  
+  .daily-ui-challenege .group-3 {
+    position: absolute;
+    width: 364px;
+    height: 120px;
+    top: 482px;
+    left: 907px;
+  }
+  
+  .daily-ui-challenege .group-wrapper {
+    position: absolute;
+    width: 364px;
+    height: 52px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 13px;
+  }
+  
+  .daily-ui-challenege .group-4 {
+    position: relative;
+    width: 146px;
+    height: 30px;
+    top: 11px;
+    left: 110px;
+  }
+  
+  .daily-ui-challenege .div-2 {
+    top: 0;
+    left: 38px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    position: absolute;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .daily-ui-challenege .text-wrapper-4 {
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+  
+  .daily-ui-challenege .text-wrapper-5 {
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
+  .daily-ui-challenege .img-2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .daily-ui-challenege .group-5 {
+    position: absolute;
+    width: 364px;
+    height: 52px;
+    top: 68px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 13px;
+  }
+  
+  .daily-ui-challenege .group-6 {
+    position: relative;
+    width: 164px;
+    height: 30px;
+    top: 11px;
+    left: 101px;
+  }
+
+  #goog{
+    margin-top: 9px;
+  }
+  #face{
+    margin-top: 9px;
+  }
+  #uname{
+    font-size: 20px;
+    padding-left: 16px;
+    border-radius: 13px;
+    position: absolute;
+    left: 66px;
+    height: 49px;
+    width: 282px;
+    border: none;
+    background: #f0f8ff2b;
+}
+#pwd{
+    font-size: 20px;
+    padding-left: 16px;
+    border-radius: 13px;
+    position: absolute;
+    left: 66px;
+    height: 49px;
+    width: 282px;
+    border: none;
+    background: #f0f8ff2b;
+  }
+
+  .welcome{
+    font-family: 'Lumanosimo', cursive;
+  }
